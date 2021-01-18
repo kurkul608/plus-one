@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Plus one</title>
+
+    <link rel="stylesheet" href="assets/css/mainPage/index.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--    <div style="height: 100vh; background-color: #002e42">f</div>-->
+    <header>
+      <div class="header">
+        <div class="header__left">
+          <div class="logo">
+            <img src="assets/images/mainPage/Logo.png" alt="" />
+          </div>
+          <div class="search">
+            <div class="search__icon">
+              <img src="assets/images/mainPage/searchIcon.svg" alt="" />
+            </div>
+            <input type="search" placeholder="Поиск по сайту" />
+          </div>
+        </div>
+
+        <div class="header__right homeMenu" id="rightHeader">
+          <nav class="navLinks">
+            <a href="#">Для женщин</a>
+            <a href="#">Для специалистов</a>
+            <a href="#">Для каждого</a>
+            <a href="#">О проекте</a>
+          </nav>
+          <div class="sandwich">
+            <img src="assets/images/mainPage/Sandwich.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="homePageSlide">
+      <div class="container">
+        <div class="homePage__content">
+          <div class="homePage__content__header">
+            <div class="homePage__content__header__left"></div>
+            <div class="homePage__content__header__right">
+              <div class="homePage__content__header__right__text">
+                <p>Информационный портал Плюс один</p>
+              </div>
+            </div>
+          </div>
+          <div class="homePage__content__main">
+            <div class="homePage__content__main__image">
+              <img src="assets/images/mainPage/HomePageImage.png" alt="" />
+            </div>
+
+            <div class="homePage__content__main__list">
+              <div class="homePage__content__main__line">
+                <div class="homePage__content__main__line__plus">
+                  <img src="assets/images/mainPage/homePagePlus.png" alt="" />
+                </div>
+                <div class="homePage__content__main__line__text">
+                  Все о <a href="#">беременности</a>
+                </div>
+              </div>
+              <div class="homePage__content__main__line">
+                <div class="homePage__content__main__line__plus">
+                  <img src="assets/images/mainPage/homePagePlus.png" alt="" />
+                </div>
+                <div class="homePage__content__main__line__text">
+                  <a href="#">Поддержка</a> женщин в трудной ситуации
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--    <section>blabla</section>-->
+    <section class="firstSlide">
+      <div class="container">
+        <div class="pregnantSection">
+          <div class="pregnantSection__main">
+            <div class="pregnantSection__main__left">
+              <p>- Я беременна?</p>
+              <div class="pregnantSection__main__left__image">
+                <img
+                  src="./assets/images/mainPage/firstSlide/firstSlide.png"
+                  alt=""
+                  class="pregnantSection__main__left__image"
+                />
+              </div>
+            </div>
+
+            <div class="pregnantSection__main__right">
+              <div class="pregnantSection__main__right__column">
+                <a
+                  href="#"
+                  class="pregnantSection__main__questionBlock blueBackGround"
+                >
+                  <p>Как рассказать о своей беременности?</p>
+                  <img
+                    src="./assets/images/mainPage/firstSlide/arrow.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="pregnantSection__main__questionBlock greyBackGround"
+                >
+                  <p>Как определить беременность</p>
+                  <img
+                    src="./assets/images/mainPage/firstSlide/arrow.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="pregnantSection__main__right__column">
+                <a
+                  href="#"
+                  class="pregnantSection__main__questionBlock whiteBackGround"
+                >
+                  <p>Что меня ждет?</p>
+                  <img
+                    src="./assets/images/mainPage/firstSlide/arrow.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="pregnantSection__main__questionBlock pinkBackground"
+                >
+                  <p>Как рассказать о своей беременности?</p>
+                  <img
+                    src="./assets/images/mainPage/firstSlide/arrow.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const header = document.getElementById("rightHeader");
+      header.addEventListener("scroll", () => {
+        console.log("hi");
+      });
+
+      window.addEventListener("scroll", () =>
+        window.scrollY === 0 ? header.classList.add("homeMenu") : null
+      );
+      window.addEventListener("scroll", () =>
+        header.classList.contains("homeMenu") && window.scrollY !== 0
+          ? header.classList.remove("homeMenu")
+          : null
+      );
+    </script>
+  </body>
+</html>

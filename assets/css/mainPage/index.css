@@ -305,9 +305,65 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
+    margin-bottom: 0;
+    margin-top: 0;
     color: #3C3C3B;
+
 }
 .pregnantSection__main__questionBlock:hover {
     box-shadow: 8px 12px 20px rgba(19, 56, 112, 0.22);
+}
+
+/*2nd slide*/
+
+.secondSlide {
+    background: #FFCDDA;
+    width: 100%;
+}
+
+.firstBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideFirst.png");
+}
+.secondBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideSecond.png");
+}
+.thirdBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideThird.png");
+}
+.fourthBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideFourth.png");
+}
+.secondSlide__main__questionBlock p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3C3C3B;
+}
+.secondSlide__main__questionBlock {
+    border-radius: 8px;
+    padding: 37px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 149px;
+    height: 100%;
+    margin-right: 14px;
+    margin-top:  33px;
+}
+.secondSlide__main__questionBlock:hover {
+    box-shadow: 8px 12px 20px rgba(19, 56, 112, 0.22);
+}
+
+
+/*3rd slide*/
+.thirdSlide {
+    background: linear-gradient(180deg, #FFCDDA 20.83%, #9ED9F3 100%);
+    width: 100%;
 }

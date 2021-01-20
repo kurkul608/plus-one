@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #B4E8FF 0%, #FFD5DE 100%);
+}
+.topContent{
+    margin-top: 147px;
+  }
+
+#sec_2 .tittleTextS{
+    max-width: 500px;
+    margin-bottom: 85px;
+    margin-top: 44px;
+}
+
+.boxImages{
+    text-align: center;
+    background: white;
+}
+.boxImages img{
+    text-align: center;
+    margin: auto;
+}
+.felxForLinks_S{
+display: flex;
+margin-top: 53px;
+}
+.itemForLinks_S{
+    width: 33.3%;
+}
+
+.textForTowns{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #002E42;
+}
+.textForTowns a{
+    color: #002E42; 
+}
+#sec_4 .tittleTextS{
+    max-width: 603px;
+}
+.topContent{
+    display: flex;
+}
+
+.topContent .d_0:first-child{
+    width: 472px;
+}
+
+
+.h1Help{
+    margin-bottom: 69px !important;
+    margin-top: 125px !important;
+}
+
+.textForLink{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #002E42;
+}
+
+.itemInpustS{
+    width: 100% !important;
+    margin-right: 0px !important;
+}
+.itemInpustS textarea{
+    background-color: #002e4200;
+}
+.rightForm form{
+    width: max-content;
+}
+.flexForm .rightForm {
+    background-color: #fff0 !important;
+}
+.d_0_link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #002E42;
+}
+
+.d_0:last-child{
+    width: 1125px;
+    height: 540px;
+    text-align: center;
+}
+.d_0:last-child img{
+    width: 82%;
+    height: 104%;
+}
+
+
+
+.buttonRequest_S{
+    background: #002E42;
+    color: #fff;
+    border-radius: 3px;
+    padding: 17px 54px;
+    width: max-content;
+    border: none;  
+    margin-top: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #fff;
+  }
+  .flexForm form{
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .flexForm .rightForm {
+    width: max-content !important;
+}
+    .imagesWrapper_s{
+        width: 100%;
+        text-align: center;
+        margin-top: -74px;
+    }
+    .flexBaseS .itemBaseS:not(:last-child){
+        margin-right: 13px;
+      }
+      .flexBaseS{
+        display: flex;
+      }
+
+
+    .itemBaseS{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        background: #FDD5DF;
+        border-radius: 5px;
+        width: 311px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 36px;
+      }
+
+      .mt0_sd{
+          margin-top: 0 !important;
+      }
+      

@@ -1,0 +1,94 @@
+#footer{
+    max-width: 1600px;
+    margin: auto;
+    background: #B4E8FF;
+    margin-top: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.itemFooter:nth-child(1){
+width: 240px;
+}
+
+.itemFooter:last-child{
+    width: 216px;
+    }
+
+
+.PhoneTitleFooter{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: right;
+text-decoration: none;
+color: #002E42;
+}
+
+.fD_mP{
+    margin-top: 18px;
+}
+.EmailComponentCSS{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-decoration: none;
+    color: #002E42;
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+.WrapperTextFooter a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #002E42;
+    text-decoration: none;
+}
+p.WrapperTextFooter a:hover {
+    text-decoration: underline;
+}
+
+
+
+.WrapperTextFooter{
+    padding-top: 23px;
+    margin: 0;
+}
+
+.textTitleFooter{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #002E42;
+    line-height: 2.7;
+}
+
+
+.SEtiSEO{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.SEtiSEO .SEtiSEO_0{
+width: 39px;
+height: 39px;
+border: 1px solid #002E42;
+}

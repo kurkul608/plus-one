@@ -1,0 +1,139 @@
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #FFD5DE 0%, #B4E8FF 100%);
+  }
+
+
+
+
+.helpersTextS{
+  max-width: 336px;
+}
+
+.buttonRequest_S{
+  background: #A4D9F2;
+  border-radius: 3px;
+  padding: 17px 54px;
+  width: max-content;
+  border: none;  
+    margin-top: 33px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #002E42;
+}
+
+.flexBaseS .itemBaseS:not(:last-child){
+  margin-right: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width: 1600px){
+  section {
+    padding: 0px 30px 0px 30px !important;
+}
+.flexBoxS .s_1:last-child{
+  margin-left: auto !important
+}
+
+#footer {
+  padding: 0px 30px 0px 30px !important;
+}
+
+
+}
+
+
+@media (max-width: 1150px){
+.flexForm {
+  display: block !important;
+  height: auto !important;
+}
+.flexForm form {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 50px;
+}
+.flexForm .rightForm {
+  width: 100% !important;
+}
+.flexForm .leftForm {
+  width: 100% !important;
+  padding-top: 3px !important;
+  padding-bottom: 80px;
+}
+.flexForm .addImageS {
+  margin-bottom: 0 !important;
+}
+#footer{
+  columns: 250px 3 !important;
+  column-gap: 40px !important;
+  display: block  !important;
+}
+.itemFooter {
+  width: 150px;
+}
+.itemFooter {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+}
+
+@media (max-width: 850px){
+  .flexBoxS {
+    display: block !important;
+}
+.s_1 {
+  width: 366px !important;
+}
+
+.flexBoxS .s_1:last-child{
+  padding-top: 30px;
+}
+
+
+}
+@media (max-width: 690px){
+  .formFlexInputs{
+    display: block !important;
+    width: 223px !important;
+    max-width: 200px !important;
+    min-width: 258px !important;
+
+  }
+}

@@ -506,7 +506,73 @@ body {
 
 /*actual*/
 
-.actualBack {
+.actualBlock {
     background: rgba(255, 90, 135, 0.8611);
     width: 100%;
+}
+
+.actualBlock__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.actualBlock__title {
+    margin-top: 138px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF
+}
+.actualBlock__main {
+    display: flex;
+    justify-content: center;
+}
+.actualBlock__main__left {
+    width: 50%;
+}
+.actualBlock__main__image {
+    max-width: 25vw;
+}
+.actualBlock__main__image img {
+    width: 100%;
+}
+.actualBlock__main__right {
+    width: 50%;
+}
+.actualBlock__main__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    /*flex: 1 50%;*/
+}
+
+.actualBlock__main__questionBlock p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3C3C3B;
+}
+.actualBlock__main__questionBlock {
+    width: 40%;
+    border-radius: 8px;
+    padding: 37px 28px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    height: 149px;
+    /*height: 100%;*/
+    /*margin-right: 14px;*/
+    margin-top:  33px;
+    background: #FFFFFF;
+}
+.actualBlock__main__questionBlock:hover {
+    box-shadow: 8px 12px 20px rgba(19, 56, 112, 0.22);
 }

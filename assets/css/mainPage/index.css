@@ -38,7 +38,7 @@ body {
 }
 
 .homePage__content {
-    /*height: 100%;*/
+    height: 100%;
 }
 .homePage__content__header {
     display: flex;
@@ -55,6 +55,13 @@ body {
 }
 .homePage__content__header__right__text {
     max-width: 310px;
+    opacity: 0;
+    transform: translate(0, 0);
+    /*transition: all 3s ease 3s;*/
+    transition-delay: 0.5s;
+}
+.homePage__content__header__right__text._active {
+    opacity: 1;
 }
 .homePage__content__header__right__text p {
     font-style: normal;
@@ -70,10 +77,10 @@ body {
 
 
 .homePage__content__main {
-    margin-top: 67px;
+    /*margin-top: 67px;*/
 
     width: 100%;
-    /*height: 100%;*/
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;

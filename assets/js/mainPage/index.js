@@ -1,14 +1,11 @@
 const header = document.getElementById("rightHeader");
-header.addEventListener("scroll", () => {
-  console.log("hi");
-});
-
+//
+// window.addEventListener("scroll", () =>
+//   window.scrollY === 0 ? header.classList.add("_active") : null
+// );
 window.addEventListener("scroll", () =>
-  window.scrollY === 0 ? header.classList.add("homeMenu") : null
-);
-window.addEventListener("scroll", () =>
-  header.classList.contains("homeMenu") && window.scrollY !== 0
-    ? header.classList.remove("homeMenu")
+  header.classList.contains("_active") && window.scrollY !== 0
+    ? header.classList.remove("_active")
     : null
 );
 
@@ -123,12 +120,14 @@ if (animItems.length > 0) {
         pageYOffset > animItemOffset - animItemPoint &&
         pageYOffset < animItemOffset + animItemHeight
       ) {
-        // debugger;
-        console.log("succes");
-        // console.log();
-        animItem.classList.add("_active");
+        if (!animItem.classList.contains("homeMenu")) {
+          animItem.classList.add("_active");
+        } else {
+          if (window.scrollY === 0) {
+            animItem.classList.add("_active");
+          }
+        }
       } else {
-        console.log("fail");
         if (!animItem.classList.contains("_anim-no-hide")) {
           animItem.classList.remove("_active");
         }

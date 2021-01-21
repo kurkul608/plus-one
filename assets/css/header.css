@@ -1,0 +1,125 @@
+.header {
+    /*position: fixed;*/
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: visible;
+}
+.header__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 32px;
+    height: 138px;
+
+    width: 50%;
+    position: fixed;
+    /*top: 0;*/
+}
+
+.logo {
+    max-width: 64px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.search {
+    width: 290px;
+    height: 22px;
+    margin-left: 125px;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    align-items: center;
+}
+.search__icon {
+    max-width: 13px;
+    margin-right: 9px;
+}
+.search__icon img {
+    width: 100%;
+}
+.search input {
+    width: 268px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.search input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 138px;
+    margin-right:  27px;
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    /*position: absolute;*/
+    /*right: 0;*/
+}
+.homeMenu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: auto;
+}
+
+.navLinks {
+    margin-right: 5px;
+    display: flex;
+
+}
+.link {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /*line-height: 1px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    position: relative;
+    color: #002E42;
+    margin-right: 54px;
+    /*padding-bottom: 30px;*/
+}
+
+.link:after {
+    display: block;
+    position: absolute;
+    /*bottom: 0;*/
+    margin-top: 10px;
+    right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 5ultpx; /*задаём ширину линии*/
+    background: #E4003A;
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.link:hover:after,
+.link:focus:after {
+    width: 31px; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.sandwich {
+    max-width: 33px;
+}
+.sandwich img {
+    width: 100%;
+    cursor: pointer;
+}

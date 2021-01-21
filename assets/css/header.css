@@ -78,7 +78,7 @@
     /*top: auto;*/
     /*opacity: 1;*/
     /*transform: translate(0, 90vh);*/
-    transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0.4s;
 }
 .homeMenu._active {
     /*right: 0;*/

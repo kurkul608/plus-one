@@ -57,8 +57,8 @@ body {
     max-width: 310px;
     opacity: 0;
     transform: translate(0, 0);
-    /*transition: all 3s ease 3s;*/
-    transition-delay: 0.5s;
+    transition: all 0.8s ease 0.5s;
+    /*transition-delay: 0.5s;*/
 }
 .homePage__content__header__right__text._active {
     opacity: 1;

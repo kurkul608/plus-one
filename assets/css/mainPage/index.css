@@ -80,6 +80,13 @@ body {
 }
 .homePage__content__main__image {
     max-width: 39%;
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.homePage__content__main__image._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 .homePage__content__main__image img {
     width: 100%;
@@ -156,8 +163,13 @@ body {
 .pregnantSection__main__left__image {
     margin-top: 57px;
     margin-left: 45px;
-    /*max-width: 398px;*/
-    /*flex: 1 27%;*/
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.pregnantSection__main__left__image._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 .pregnantSection__main__left__image img {
     flex: 1 27%;
@@ -445,6 +457,13 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.actualBlock__main__image._active {
+    transform: translate(0, 0);
+    opacity: 1;
 }
 .actualBlock__main__image img {
     width: 100%;

@@ -123,16 +123,23 @@
     /*bottom: 0;*/
     margin-top: 10px;
     right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-    width: 0;/*задаём длинну линии до наведения курсора*/
+    /*width: 0;!*задаём длинну линии до наведения курсора*!*/
     height: 5px; /*задаём ширину линии*/
-    background: #E4003A;
+    /*background: #E4003A;*/
+    background-image: url(../images/header/line.svg);
+    background-size: cover;
+    opacity: 0;
+    width: 100%;
     content: "";
-    transition: width 0.3s ease-out; /*задаём время анимации*/
+    /*transform: translate(200%, 0);*/
+    transition: opacity 0.5s ease-out; /*задаём время анимации*/
 }
 
 .link:hover:after,
 .link:focus:after {
-    width: 31px; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    /*width: 100%; !*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*!*/
+    /*transform: translate(0, 0);*/
+    opacity: 1;
 }
 .sandwich {
     max-width: 33px;

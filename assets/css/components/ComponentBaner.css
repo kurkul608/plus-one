@@ -10,6 +10,7 @@
     height: 100%;
     transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
     will-change: transform;
+    background-position: center !important;
   }
   .slider[data-pos="0"] .slider__slides {
     transform: translateX(0%);
@@ -27,20 +28,22 @@
     float: left;
     width: 25%;
     height: 100%;
+    object-fit: cover;
+    background-size: cover !important;
   }
   .slider__dots {
-      display: flex;
-      position: absolute;
-      top: 200px;
-      left: -56px;
-      margin-left: 95px;
-      transform: rotate(90deg);
+    display: flex;
+    position: absolute;
+    top: 229px;
+    left: -145px;
+    margin-left: 95px;
+    transform: rotate(90deg);
   }
   .slider__dot, .slider__indicator {
     display: block;
-    margin: 0 0.5em;
-    width: 1em;
-    height: 1em;
+    margin: 0 1.5em;
+    width: 0.6em;
+    height: 0.6em;
     background: rgba(228, 0, 58, 0.5);
     border-radius: 100px;
     cursor: pointer;
@@ -49,6 +52,7 @@
     position: absolute;
     background: #E4003A;
     width: auto;
+    transform: scale(1.6);
   }
   .slider__indicator--left {
     transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
@@ -58,19 +62,19 @@
   }
   .slider[data-pos="0"] .slider__indicator {
     left: 0em;
-    right: 6em;
+    right: 10.8em;
   }
   .slider[data-pos="1"] .slider__indicator {
-    left: 2em;
-    right: 4em;
+    left: 3.6em;
+    right: 7.2em;
   }
   .slider[data-pos="2"] .slider__indicator {
-    left: 4em;
-    right: 2em;
+    left: 7.3em;
+    right: 3.5em;
   }
   .slider[data-pos="3"] .slider__indicator {
-    left: 6em;
-    right: 0em;
+    left: 10.7em;
+    right: 0.1em;
   }
   
   .component_Baner{
@@ -81,14 +85,26 @@
       height: 460px;
   }
   .slider__slide:nth-child(1) {
-    background: #309954;
+    background: url(https://static9.depositphotos.com/1594308/1110/i/600/depositphotos_11107478-stock-photo-fantasy.jpg);
   }
   .slider__slide:nth-child(2) {
-    background: #FFBD3C;
+    background: url(https://i.pinimg.com/736x/e8/27/eb/e827eb3d61909aea0c45232183bb9e03.jpg);
   }
   .slider__slide:nth-child(3) {
-    background: #F8593E;
+    background: url(https://click-or-die.ru/wp-content/uploads/2020/06/1-383x680.jpg);
   }
   .slider__slide:nth-child(4) {
-    background: #4086FA;
+    background: url(https://img13.postila.ru/resize?w=600&src=%2Fdata%2F21%2F33%2Fcf%2Fa1%2F2133cfa14b903cd9d0fd64046b2c459bae1458d0bfd4b10c0b18a5941eb25779.jpg);
   }
+
+  .BannerOpt {
+    position: absolute;
+    cursor: pointer;
+}
+.BannerOpt:first-child{
+  transform: translate(-70px, -12px) rotate(90deg);
+}
+.BannerOpt:last-child{
+  transform:translate(286px, -12px) rotate(-90deg)
+}
+

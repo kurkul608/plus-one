@@ -1,10 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #B4E8FF 0%, #FFD5DE 100%);
+
 }
 .topContent{
-    margin-top: 147px;
+    padding-top: 147px !important;
+    position: relative;
+  }
+  .boxFor1SectionDiv{
+    background: linear-gradient(180deg, #B4E8FF 0%, #FFD5DE 100%);
+    overflow: hidden;
+  }
+  .boxFor1SectionDiv2{
+    background: linear-gradient(180deg, #FFD5DE 0%,  #B4E8FF 100%);
+    margin-top: -35px;
   }
 
 #sec_2 .tittleTextS{
@@ -13,14 +22,8 @@ body {
     margin-top: 44px;
 }
 
-.boxImages{
-    text-align: center;
-    background: white;
-}
-.boxImages img{
-    text-align: center;
-    margin: auto;
-}
+
+
 .felxForLinks_S{
 display: flex;
 margin-top: 53px;
@@ -93,7 +96,7 @@ color: #002E42;
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #002E42;
+    color: #000;
 }
 
 .d_0:last-child{
@@ -131,42 +134,61 @@ color: #002E42;
     margin-right: 0px !important;
   }
 
-  .flexForm .rightForm {
-    width: max-content !important;
-}
     .imagesWrapper_s{
         width: 100%;
         text-align: center;
         margin-top: -74px;
     }
-    .flexBaseS .itemBaseS:not(:last-child){
-        margin-right: 13px;
-      }
-      .flexBaseS{
-        display: flex;
-      }
 
-
-    .itemBaseS{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 26px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        color: #000000;
-        background: #FDD5DF;
-        border-radius: 5px;
-        width: 311px;
-        overflow: hidden;
-        position: relative;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 36px;
-      }
 
       .mt0_sd{
           margin-top: 0 !important;
       }
-      
+
+
+
+      /* media */
+@media (max-width: 1154px){
+
+    .imagesWrapper_s img{
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+.rightForm form {
+    margin: auto;
+    width: auto;
+}
+.itemForLinks_S {
+    width: 389px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin: auto;
+}
+.felxForLinks_S {
+    columns: 389px 3 !important;
+    column-gap: 40px !important;
+    display: block !important;
+}
+.d_0:last-child {
+    position: absolute;
+}
+
+  }
+  @media (max-width: 400px){
+    .textForTowns a {
+        font-size: 22px;
+    }
+    .d_0:last-child {
+        display: none;
+    }
+    .h1Help {
+        margin-bottom: 69px !important;
+        margin-top: 43px !important;
+    }
+    #sec_2 .tittleTextS {
+        padding-top: 50px ;
+    }
+
+  }

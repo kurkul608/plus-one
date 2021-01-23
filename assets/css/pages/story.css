@@ -1,0 +1,169 @@
+.d_0_link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.topContent {
+    padding-top: 147px !important;
+    position: relative;
+}
+
+.lineCompoentScrool_0{
+    border-bottom: 1px solid #002E42;
+    margin-top: 45px;
+    position: relative;
+}
+.lineCompoentScrool_0 p {
+    width: max-content;
+    margin-left: auto;
+    padding-right: 100px;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.itemsNavigation{
+    position: absolute;
+    top: 38px;
+    top: 34px;
+    display: flex;
+}
+
+
+.itemS_00{
+    background: #002E42;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-right: 91px;
+}
+
+.activity_i_0{
+    margin-top: 0px;
+    width: 25px;
+    height: 25px;
+    background: #E4003A;
+}
+.lineCompoentScrool_0 p:after {
+    content: url(../../images/mainPage/cursBlack.svg);
+    margin-left: 17px;
+}
+
+.debPb__93 {
+    padding-bottom: 93px;
+    height: -moz-calc(100vh - 93px);
+    height: -webkit-calc(100vh - 93px);
+    height: -o-calc(100vh - 93px);
+    height: calc(100vh - 93px);
+}
+
+
+.firstText{
+    padding-top: 25vh;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.bottomText{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+padding-top: 58px;
+color: #000000;
+max-width: 451px;
+}
+.flexForStory{
+    display: flex;
+}
+.flexForStory .com_0:first-child{
+    width: 444px;
+    min-width: 444px;
+}
+
+
+.flexForStory .com_0:last-child{
+    width: 1156px;
+}
+.boxImage{
+    width: 100%;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.wrapperSectionHistory__One.debPb__93{
+    background: linear-gradient(180deg, #FFD5DE  0%,  #B4E8FF 100%) !important;
+    overflow: hidden;
+}
+
+a.d_0_link:before {
+    content: url(../../images/mainPage/story/curs.svg);
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+
+@media (max-width: 1078px){
+.boxImage img{
+    position: absolute;
+}
+
+
+}
+
+
+@media (max-width: 563px){
+
+
+
+    .flexForStory .com_0:first-child{
+
+        width: 100%;
+        min-width: 100%;
+    }
+    .flexForStory .com_0:last-child{
+        width: 100%;
+    }
+    .boxImage img{
+        position: initial !important;
+    }
+    .debPb__93{
+        height: auto !important;
+    }
+    .flexForStory {
+        flex-wrap: wrap;
+    }
+    .boxImage img{
+        width: 100%;
+    }
+    .flexForStory .com_0:first-child{
+        
+        order: 1;
+    }
+}
+
+@media (max-width: 370px){
+
+
+    .lineCompoentScrool_0 p{
+        font-size: 25px;
+    }
+}

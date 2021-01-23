@@ -1,8 +1,8 @@
 #footer{
     max-width: 1600px;
     margin: auto;
-    background: #B4E8FF;
-    margin-top: 134px;
+    /* background: #B4E8FF; */
+    padding-top: 134px;
     display: flex;
     justify-content: space-between;
     align-items: start;

@@ -164,7 +164,6 @@ body {
     line-height: 24px;
     display: flex;
     align-items: center;
-
     color: #002E42;
 }
 .pregnantSection__main__left__image {
@@ -535,6 +534,7 @@ body {
     padding-bottom: 27px;
     position: relative;
     width: 100%;
+    border-radius: 10px;
 
 }
 .flexBaseS{
@@ -547,11 +547,15 @@ body {
 
 
 .actualBlock__sliders__slide p  {
+    margin: 0 40px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    margin: 0 40px;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 .actualBlock__sliders__slide {
     /*height: 21vh;*/

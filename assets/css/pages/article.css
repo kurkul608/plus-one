@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/*section {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+.article__wrapper {
+    /*display: flex;*/
+    align-items: center;
+    /*flex: 1 1660px;*/
+    /**/
+    /*padding: 0px 121px 0px 121px;*/
+}
+.container {
+    /*max-width: 1660px;*/
+    max-width: 1660px;
+    min-width: 768px;
+    width: 100%;
+    /*margin-right: 121px;*/
+    /*margin-left: 121px;*/
+    /*height: 100vh;*/
+    /*height: 100%;*/
+    /*margin: 0 auto;*/
+    /*padding:  0 121px;*/
+
+}
+.marginRight {
+    margin-right: 121px;
+    margin-left: 121px;
+}
+
+.topContent {
+    background: linear-gradient(180deg, #FFF2F2 9.9%, #FFCDDA 100%);
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 100vw;
+}
+
+.topBack  {
+    margin-top: 147px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    color: #002E42;
+}
+
+
+.topContainer {
+    margin-bottom: 101px;
+    width: 100%;
+    display: flex;
+    margin-top: 63px;
+}
+.topContainer__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topQuestion {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #002E42;
+    margin-top: 10px;
+}
+
+
+.questionBlock__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*display: flex;*/
+    /*display: inline-grid;*/
+    height: 217px;
+    /*flex: 2 50%;*/
+    /*flex-basis: auto;*/
+}
+.questionBlock {
+    border-radius: 8px;
+    padding: 37px 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 143px;
+    height: 100%;
+    margin-right: 14px;
+    /*margin-top:  33px;*/
+    /*width: 50%;*/
+    /*flex-basis: auto;*/
+}
+.questionBlock img {
+    max-width: 72px;
+}
+.questionBlock p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3C3C3B;
+
+}
+.questionBlock:hover {
+    box-shadow: 8px 12px 20px rgba(19, 56, 112, 0.22);
+}
+
+.topContainer__right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.topContainer__right__image {
+    max-width: 398px;
+    width: 27vw;
+}
+.topContainer__right__image img {
+    width: 100%;
+
+}
+
+a.topBack:before {
+    content: url(../../images/mainPage/story/curs.svg);
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+.howDefineContent {
+    background: linear-gradient(180deg, #FFCEDB 0%, #9DD9F3 48.07%, #FFD0DC 90.62%);
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 100vw;
+}
+.howDefineContent__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    color: #002E42;
+    margin-bottom: 55px;
+}
+.firstBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.firstBlock__target {
+    width: 56%;
+}
+.firstBlock__target__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #002E42;
+}
+.firstBlock__target__text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #002E42;
+}
+.firstBlock__target__text__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #002E42;
+}
+.firstBlock__left {
+    width: 44%;
+    display: flex;
+    justify-content: center;
+}
+.firstBlock__left__image {
+    /*width: 30vw;*/
+    /*max-width: 443px;*/
+    width: 100%;
+    margin-right: 87px;
+}
+.firstBlock__left__image img {
+    width: 100%;
+}
+.marginTop {
+    margin-top: 42px;
+}
+.secondBlock__target {
+    width: 49%;
+}
+.secondBlock__left {
+    width: 51%;
+}
+.secondBlock__wrapper {
+    margin-left: 217px;
+    /*width: 100%;*/
+}
+.secondBlock__line {
+    margin-top: 60px;
+    margin-bottom: 42px;
+    background-color: #002E42;
+    height: 4px;
+    width: 100%;
+}
+.secondBlock__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px;
+    /* or 135% */
+
+
+    color: #002E42;
+}
+
+.pregnantSection__main__right__column {
+    flex: 1 20%;
+    margin-bottom: 33px;
+    height: auto;
+}
+
+.secondSlide__main__questionBlock p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3C3C3B;
+}
+.secondSlide__main__questionBlock {
+    border-radius: 8px;
+    padding: 37px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 149px;
+    height: 100%;
+    margin-right: 14px;
+    margin-top:  33px;
+}
+.secondSlide__main__questionBlock:hover {
+    box-shadow: 8px 12px 20px rgba(19, 56, 112, 0.22);
+}
+
+.firstBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideFirst.png");
+}
+.secondBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideSecond.png");
+}
+.thirdBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideThird.png");
+}
+.fourthBackground {
+    background-size: cover;
+    background-image: url("../../images/mainPage/secondSlide/secondSlideFourth.png");
+}
+
+.nextBlock {
+    display: flex;
+    height: 470px;
+    margin-bottom: 88px;
+
+}
+
+.likeBlock {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 217px;
+}
+
+.blueBackGround {
+    background: #B4E8FF;
+}
+.whiteBackGround {
+    background: #FFFDFD;
+}
+.greyBackGround {
+    background: #E3E4EB;
+}
+.pinkBackground {
+    background: #F9A4B8;
+}

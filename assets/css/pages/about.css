@@ -1,0 +1,62 @@
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #FFD5DE 0%, #B4E8FF 100%);
+  }
+
+  
+  section{
+    max-width: 1600px;
+    margin: auto;
+  }
+
+
+
+
+.helpersTextS{
+  max-width: 336px;
+}
+
+.buttonRequest_S{
+  background: #A4D9F2;
+  border-radius: 3px;
+  padding: 17px 54px;
+  width: max-content;
+  border: none;  
+    margin-top: 33px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #002E42;
+}
+
+.flexBaseS .itemBaseS:not(:last-child){
+  margin-right: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

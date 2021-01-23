@@ -1,0 +1,158 @@
+.topContent {
+    padding-top: 147px !important;
+    position: relative;
+}
+.d_0_link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.h1Help {
+    margin-bottom: 42px !important;
+    margin-top: 125px !important;
+}
+.actualBlock__sliders__slide:first-child{
+    background: #B4E8FF !important;
+}
+.actualBlock__sliders__slide:nth-child(2){
+    background: #FFFFFF ;
+}
+
+.actualBlock__sliders__slide:nth-child(1n+3) {
+
+    background: #B4E8FF ;
+}
+
+.actualBlock__sliders__slide:nth-child(2n+3) {
+    
+    background: #FFFFFF ;
+   
+}
+
+.actualBlock__sliders__slide:nth-child(3n+3) {
+    
+    background: #F9A4B8 ;
+}
+.wrapperFooter___Trable{
+    background-color:     #B4E8FF;
+}
+
+.actualBlock__sliders::-webkit-scrollbar-thumb {
+    /* height: 6px; */
+    border: 3px solid transparent;
+    background: #E4003A;
+    /* border-radius: 9px; */
+    background-clip: content-box;
+    /* border: 1px solid #E4003A; */
+}
+.actualBlock__sliders::-webkit-scrollbar-track {
+    background: rgba(228, 0, 58, 0.5);
+    border: 7px solid transparent;
+    background-clip: content-box;
+  }
+.wrapperRowTrabls{
+    padding-top: 70px;
+    display: flex;
+}
+
+.itemRowTrabl:first-child{
+    top: 0;
+    width: 350px;
+    max-width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    min-width: 350px;
+    height: max-content;
+    padding-bottom: 31px;
+    position: sticky;
+
+}
+
+.itemRowTrabl:last-child{
+    margin-left: 14px;
+    width: 100%;
+}
+
+.compoentTrabl{
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+.compponentTrabl_LEFT_text h2{
+    padding-left: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 255px;
+    color: #002E42;
+}
+
+.compponentTrabl_LEFT_text h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+padding-left: 76px;
+color: #000000;
+}
+
+.compponentTrabl_LEFT_text{
+    padding-top: 20px;
+}
+
+
+.compoentTrabl h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 45px;
+    color: #002E42;
+    text-align: center;
+}
+
+
+.compoentTrabl h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+padding-top: 58px;
+color: #000000;
+}
+
+
+.buttonLinkOpen{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-decoration-line: underline;
+text-align: center;
+color: #E4003A;
+padding-bottom: 31px;
+cursor: pointer;
+transition: 0.2s;
+}
+.buttonLinkOpen:hover{
+    opacity: 0.7;
+}
+
+.compoentTrabl:first-child{
+    margin-top: -22px;
+}

@@ -7,6 +7,8 @@
     overflow: visible;
 }
 .header__left {
+    /*background-color: white;*/
+    z-index: 1000;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -59,6 +61,7 @@
 
 
 .header__right {
+    z-index: 1000;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -115,7 +118,7 @@
     margin-top: 10px;
     right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
     width: 0;/*задаём длинну линии до наведения курсора*/
-    height: 5ultpx; /*задаём ширину линии*/
+    height: 5px; /*задаём ширину линии*/
     background: #E4003A;
     content: "";
     transition: width 0.3s ease-out; /*задаём время анимации*/

@@ -1,0 +1,246 @@
+body {
+    background: linear-gradient(180deg, #B4E8FF 0%,   #FFD5DE 100%);
+}
+.background__Ping .actualBlock__sliders__slide{
+    background: #B4E8FF !important;
+}
+
+
+.actualBlock__sliders.background__Ping{
+    margin-bottom: 124px;
+}
+.actualBlock__main {
+    display: flex;
+    justify-content: center;
+}
+.actualBlock__main__left {
+    width: 50%;
+}
+.actualBlock__main__right {
+    width: 50%;
+}
+.actualBlock__main__image {
+    width: 25vw;
+    max-width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translate(0, 15%);
+    transition: all 0.8s ease 0.4s;
+    margin: auto;
+}
+.actualBlock__main__image img {
+    width: 100%;
+    margin-top: -78px;
+}
+.actualBlock__main__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.actualBlock__main__questionBlock {
+    width: 40%;
+    border-radius: 8px;
+    padding: 37px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 149px;
+    margin-top: 33px;
+    background: #FFFFFF;
+    cursor: pointer;
+
+    min-width: 200px;
+}
+.actualBlock__main__questionBlock p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3C3C3B;
+}
+.mt0_sd{
+    padding-top: 0px !important;
+}
+
+
+.secText_0{
+    padding-top: 112px;
+    display: flex;
+}
+
+.itemSec_0:first-child{
+    width: 70%;
+    padding-right: 212px;
+}
+.itemSec_0:first-child .textH3_0 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #002E42;
+}
+.scrollItem{
+    overflow-y: scroll;
+    height: 675px;
+    direction: rtl;
+    width: 326px;
+}
+.tobeCont{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+color: rgba(64, 63, 63, 0.73);
+}
+.Text_S_0{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #002E42;
+
+}
+.scrollItem_Box{
+    width: 289px;
+    height: 219px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.itemSec_0:last-child{
+    width: 30%;
+    min-width: 330px;
+}
+
+.pt99px{
+    padding-top: 99px !important;
+}
+
+
+.PtextImage{
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    direction: initial;
+    left: 27px;
+    width: 188px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #002E42;
+}
+
+
+
+.red_0_c{
+    background: #F9A4B8;
+}
+.blue_0_b{
+    background: #A5D9F2;
+}
+
+
+
+
+.scrollItem::-webkit-scrollbar {
+    width: 12px;
+  }
+  .scrollItem::-webkit-scrollbar-button {
+    width: 2px;
+    height: 2px;
+    cursor: pointer;
+  }
+  .scrollItem::-webkit-scrollbar-thumb {
+    /*height: 6px;*/
+    border: 3px solid transparent;
+    background: #002E42;
+    /*border-radius: 9px;*/
+    background-clip: content-box;
+    /*border: 1px solid #E4003A;*/
+  }
+  
+  
+  .scrollItem::-webkit-scrollbar-track {
+    background: rgba(0, 46, 66, 0.5);
+    border: 7px solid transparent;
+    background-clip: content-box;
+  }
+
+  @media (max-width: 1542px){
+    .itemSec_0:first-child {
+        width: 70%;
+        padding-right: 4%;
+    }
+    .actualBlock__main__questionBlock {
+        max-width: 282px;
+ 
+    }
+
+  }
+
+  
+  @media (max-width: 1000px){
+
+    .actualBlock__main{
+        display: block;
+    }
+    .actualBlock__main__right {
+        width: 100%;
+    }
+
+    .secText_0 {
+        display: block;
+    }
+    .itemSec_0:first-child {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .itemSec_0:last-child {
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 765px){
+
+    .scrollItem {
+        overflow-y: initial;
+        height: max-content;
+        direction: initial;
+        width: 100%;
+    }
+
+    .actualBlock__main__left{
+        display: none;
+    }
+
+    .actualBlock__main__row {
+
+        display: block;
+
+    }
+  }
+
+
+  @media (max-width: 350px) {
+    .itemSec_0:last-child {
+        min-width: auto;
+    }
+    .scrollItem_Box {
+        width: 100%;
+
+    }
+  }

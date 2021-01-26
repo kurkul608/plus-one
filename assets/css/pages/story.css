@@ -68,6 +68,12 @@
     height: calc(100vh - 93px);
 }
 
+.boxImage img {
+    border-radius: 50%;
+    width: 525px;
+    height: 525px;
+}
+
 
 .firstText{
     padding-top: 25vh;
@@ -130,6 +136,16 @@ a.d_0_link:before {
 }
 
 
+
+@media (max-height: 875px){
+ .debPb__93 {
+    height: auto !important;
+}  
+}
+
+
+
+
 @media (max-width: 563px){
 
 
@@ -152,7 +168,8 @@ a.d_0_link:before {
         flex-wrap: wrap;
     }
     .boxImage img{
-        width: 100%;
+        width: 100% !important;
+        height: 100%;
     }
     .flexForStory .com_0:first-child{
         

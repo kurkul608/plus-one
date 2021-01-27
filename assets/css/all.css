@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+.wrapperFooter{
+  padding-top: 60px !important;
+}
 
 .background__Ping .actualBlock__sliders__slide{
   background: #FDD5DF;

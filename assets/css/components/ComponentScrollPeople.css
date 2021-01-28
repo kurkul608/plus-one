@@ -54,6 +54,7 @@
     margin-left: 40px;
     width: 133px;
     height: 133px;
+    border-radius: 50%;
 }
 .sliderBlock__slider__slide__name {
     font-style: normal;
@@ -86,7 +87,7 @@
     color: #002E42;
 }
 .sliderBlock__slider__slide__text {
-    ont-style: normal;
+    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -96,19 +97,19 @@
 }
 .backGroundImage1 {
     background-size: cover;
-    background-image: url("../../images/mainPage/slider/1.png");
+    /*background-image: url("../../images/mainPage/slider/1.png");*/
 }
 .backGroundImage2 {
     background-size: cover;
-    background-image: url("../../images/mainPage/slider/2.png");
+    /*background-image: url("../../images/mainPage/slider/2.png");*/
 }
 .backGroundImage3 {
     background-size: cover;
-    background-image: url("../../images/mainPage/slider/3.png");
+    /*background-image: url("../../images/mainPage/slider/3.png");*/
 }
 .backGroundImage4 {
     background-size: cover;
-    background-image: url("../../images/mainPage/slider/4.png");
+    /*background-image: url("../../images/mainPage/slider/4.png");*/
 }#style-2::-webkit-scrollbar-track {
     background: rgba(228, 0, 58, 0.5);
     border: 5px solid transparent;

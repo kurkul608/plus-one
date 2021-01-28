@@ -9,20 +9,7 @@ window.addEventListener("scroll", () =>
     : null
 );
 
-function scrollDown() {
-  var windowCoords = document.documentElement.clientHeight;
-  (function scroll() {
-    if (window.pageYOffset < windowCoords) {
-      window.scrollBy(0, 10);
-      setTimeout(scroll, 0);
-    }
-    if (window.pageYOffset > windowCoords) {
-      window.scrollTo(0, windowCoords);
-    }
-  })();
-}
-let checker = true;
-addEventListener("wheel", (e) => {
+const scrollWheel = (e) => {
   if (checker) {
     checker = false;
     var scroll = e.deltaY || e.detail || e.wheelDelta;
@@ -46,9 +33,8 @@ addEventListener("wheel", (e) => {
       checker = true;
     }, 1000);
   }
-});
-let checkerButtons = true;
-addEventListener("keydown", (e) => {
+};
+const clickDown = (e) => {
   if (checkerButtons) {
     checkerButtons = false;
     if (e.key === "ArrowDown") {
@@ -72,7 +58,12 @@ addEventListener("keydown", (e) => {
       checkerButtons = true;
     }, 1000);
   }
-});
+};
+
+let checker = true;
+addEventListener("wheel", scrollWheel);
+let checkerButtons = true;
+addEventListener("keydown", clickDown);
 
 const animItems = document.querySelectorAll("._anim-items");
 
@@ -116,3 +107,23 @@ if (animItems.length > 0) {
 
   setTimeout(() => animOnScroll(), 300);
 }
+
+window.addEventListener("scroll", () => {
+  // console.log("scroll");
+  const rect = document.getElementById("stopScroll").getBoundingClientRect();
+  // console.log(rect.y);
+  if (rect.y < 0) {
+    document.body.setAttribute("style", "overflow: auto;");
+    console.log("hello");
+    window.removeEventListener("wheel", scrollWheel);
+    window.removeEventListener("keydown", clickDown);
+    // removeEventListener(("wheel", scrollWheel);
+    // // let checkerButtons = true;
+    // removeEventListener("keydown", clickDown);
+  } else {
+    document.body.removeAttribute("style", "overflow: auto;");
+    window.addEventListener("wheel", scrollWheel);
+    // let checkerButtons = true;
+    window.addEventListener("keydown", clickDown);
+  }
+});

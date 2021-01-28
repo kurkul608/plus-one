@@ -194,7 +194,8 @@ body {
 
 
 .blueBackGround {
-    background: #B4E8FF;
+    /* background: #B4E8FF; */
+    background-size: cover;
 }
 .whiteBackGround {
     background: #FFFDFD;
@@ -243,19 +244,19 @@ body {
 
 .firstBackground {
     background-size: cover;
-    background-image: url("../../images/mainPage/secondSlide/secondSlideFirst.png");
+    /* background-image: url("../../images/mainPage/secondSlide/secondSlideFirst.png"); */
 }
 .secondBackground {
     background-size: cover;
-    background-image: url("../../images/mainPage/secondSlide/secondSlideSecond.png");
+    /* background-image: url("../../images/mainPage/secondSlide/secondSlideSecond.png"); */
 }
 .thirdBackground {
     background-size: cover;
-    background-image: url("../../images/mainPage/secondSlide/secondSlideThird.png");
+    /* background-image: url("../../images/mainPage/secondSlide/secondSlideThird.png"); */
 }
 .fourthBackground {
     background-size: cover;
-    background-image: url("../../images/mainPage/secondSlide/secondSlideFourth.png");
+    /* background-image: url("../../images/mainPage/secondSlide/secondSlideFourth.png"); */
 }
 .secondSlide__main__questionBlock p {
     font-style: normal;
@@ -439,7 +440,7 @@ body {
     height: 100%;
 }
 .actualBlock__title {
-    margin-top: 138px;
+    /* margin-top: 138px; */
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
